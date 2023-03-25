@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+body{
+    background-color: #a25add;
+}
+
+.backgroung-grey{
+    background-color: #a25add;
+}
+
+.border-none{
+    border: none !important;
+}
+
+.min-height-80{
+    min-height: 80px;
+}
+
+.border-right{
+    border-right: solid #a25add;
+}
+
+.custom-border{
+    border: solid #a25add;
+    border-radius: 5px;
+}
+
+.blue-color{
+    color: #a25add;
+}
